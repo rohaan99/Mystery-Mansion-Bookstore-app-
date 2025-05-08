@@ -11,9 +11,9 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+            At Mystery Mansion, we believe books are more than just paper and ink-they are gateways to imagination, knowledge, and connection.
+            Discover handpicked reads, enjoy easy shopping, and join a community of passionate readers. Start your next story with us today!<br />
+            Let me know if you want it tailored further!
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
