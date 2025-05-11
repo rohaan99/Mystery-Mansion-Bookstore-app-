@@ -7,11 +7,12 @@ import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
 
 const app = express();
+const allowedOrigins = ['https://mystery-mansion-bookstore-app-mdee.vercel.app/'];
 
-app.use(cors());
+app.use(cors({allowedOrigins}));
 app.use(express.json());
 
-dotconfig();
+dotenv.config();
 
 const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
